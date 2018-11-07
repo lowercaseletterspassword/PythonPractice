@@ -1,4 +1,4 @@
-print('Wow best thing ever')
+print('Averages and adds test scores and gives you a result. Type 999 to end and see your results')
 counter = 0
 score_total = 0
 test_score = 0
