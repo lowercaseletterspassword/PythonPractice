@@ -1,3 +1,4 @@
+name = (input("Enter Name: "))
 counter = 0
 score_total = 0
 test_score = 0
@@ -10,5 +11,5 @@ while test_score != 999:
 
 Average_score = round(score_total / counter)
 
-print("Total score: " + str(score_total))
-print("Average score: " + str(Average_score))
+print(name + "'s Total score: " + str(score_total))
+print(name + "'s Average score: " + str(Average_score))
